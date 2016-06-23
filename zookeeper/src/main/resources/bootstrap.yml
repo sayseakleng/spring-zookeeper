@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: testZookeeperApp
+  cloud:
+    config:
+      # TODO: refactor spring-cloud-config to use refresh, etc.. with out config client
+      enabled: false
+    zookeeper:
+      connect-string: 192.168.1.190:2181
